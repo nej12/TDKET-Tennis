@@ -46,7 +46,7 @@ const Testimony = () => {
         
 
         <div className='pl-12 w-1/3'>
-        <p>My dots need fixing, oh and I am testimonial by the way</p>
+        <p>My dots need fixing,will make testemoy vedio</p>
         <iframe
             className="h-screen w-[22rem] rounded-2xl"
             src="https://www.youtube-nocookie.com/embed/SvQYfx4zw_k?wmode=transparent&vq=hd1080"

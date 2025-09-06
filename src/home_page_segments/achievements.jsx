@@ -1,7 +1,7 @@
 import aimg1 from "../assets/images/aimg1.jpg"
 import aimg2 from "../assets/images/aimg2.jpg"
 import aimg3 from "../assets/images/aimg3.jpg"
-import aimg4 from "../assets/images/aimg4.jpg"
+
 
 import { BsRocketTakeoffFill } from "react-icons/bs";
 import { BsBox2HeartFill } from "react-icons/bs";
@@ -42,10 +42,10 @@ const Achievements = () => {
     <div>
         <div className="p-10"><h1 className="text-center font-bold text-5xl leading-snug font-poppins">Achievements</h1></div>      
         <div className="flex justify-around p-20">
-            <div className="grid grid-cols-2 grid-rows-2 gap-8">
+            <div className="grid grid-cols-3 grid-rows-1 gap-8">
                 <div className=" rounded-xl shadow-2xl w-[25rem]">
                     <img src= {aimg1} alt="" className="rounded-t-2xl w-full h-64"/>
-                    <h1 className="text-start font-bold text-2xl leading-snug font-poppins p-3">Local Recognition</h1>
+                    <h1 className="text-start font-bold text-2xl leading-snug font-poppins p-3">Recognitions</h1>
                     <h3 className="text-start text-gray-400 p-4">Dolor donec eget morbi nisi. Eu et enim ornare nisl vel auctor odio a. Curabitur porttitor quis gravide porttitor vel...</h3>
                     <div className="p-4">
                         <div className=" h-3 bg-gray-200 rounded-md overflow-hidden">
@@ -67,7 +67,7 @@ const Achievements = () => {
                 
                 <div className=" rounded-xl shadow-2xl w-[25rem]">
                     <img src= {aimg2} alt="" className="rounded-t-2xl w-full h-64"/>
-                    <h1 className="text-start font-bold text-2xl leading-snug font-poppins p-3">World Wide Recognition</h1>
+                    <h1 className="text-start font-bold text-2xl leading-snug font-poppins p-3">Local Competitions</h1>
                     <h3 className="text-start text-gray-400 p-4">Dolor donec eget morbi nisi. Eu et enim ornare nisl vel auctor odio a. Curabitur porttitor quis gravide porttitor vel...</h3>
                     <div className="p-4">
                         <div className=" h-3 bg-gray-200 rounded-md overflow-hidden">
@@ -89,7 +89,7 @@ const Achievements = () => {
 
                 <div className=" rounded-xl shadow-2xl w-[25rem]">
                     <img src= {aimg3} alt="" className="rounded-t-2xl w-full h-64"/>
-                    <h1 className="text-start font-bold text-2xl leading-snug font-poppins p-3">Local Competitions</h1>
+                    <h1 className="text-start font-bold text-2xl leading-snug font-poppins p-3">World Wide Competitions</h1>
                     <h3 className="text-start text-gray-400 p-4">Dolor donec eget morbi nisi. Eu et enim ornare nisl vel auctor odio a. Curabitur porttitor quis gravide porttitor vel...</h3>
                     <div className="p-4">
                         <div className=" h-3 bg-gray-200 rounded-md overflow-hidden">
@@ -109,28 +109,8 @@ const Achievements = () => {
                     <div className="p-4"><button className=' bg-black text-white rounded-xl w-full p-4 font-poppins font-bold'>VIEW DETAILS</button></div>   
                 </div>
 
-                <div className=" rounded-xl shadow-2xl w-[25rem]">
-                    <img src= {aimg4} alt="" className="rounded-t-2xl w-full h-64"/>
-                    <h1 className="text-start font-bold text-2xl leading-snug font-poppins p-3">International Competition</h1>
-                    <h3 className="text-start text-gray-400 p-4">Dolor donec eget morbi nisi. Eu et enim ornare nisl vel auctor odio a. Curabitur porttitor quis gravide porttitor vel...</h3>
-                    <div className="p-4">
-                        <div className=" h-3 bg-gray-200 rounded-md overflow-hidden">
-                            <div className="h-full bg-orange-500 w-3.5"></div>
-                        </div>
-                    </div>
-                    <div className="flex justify-between px-6">
-                        <div className="space-y-1">
-                            <h3 className="font-bold font-poppins">Goal: $120000</h3>
-                            <h5 className="font-light font-poppins text-xs text-gray-700">Raised: $8000</h5>
-                        </div>
-                        <div className="space-y-1">
-                            <h3 className="font-bold font-poppins text-end">14</h3> 
-                            <h5 className="font-light font-poppins text-xs text-gray-600">donations</h5>
-                        </div>
-                    </div>        
-                    <div className="p-4"><button className=' bg-black text-white rounded-xl w-full p-4 font-poppins font-bold'>VIEW DETAILS</button></div>   
-                </div>
-                
+
+
             </div>
         </div>
 

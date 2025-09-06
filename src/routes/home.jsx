@@ -17,8 +17,8 @@ function Home() {
         <Short_video />
         <ProjectOffers />
         <Achievements />
-        <TopDonors />
         <Gallery />
+        <TopDonors />
         <Testimony />
         <Famous_icons />
         <Footer />

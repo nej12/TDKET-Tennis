@@ -3,41 +3,47 @@ import { SiTalenthouse } from "react-icons/si";
 import { FaProjectDiagram } from "react-icons/fa";
 import { TiContacts } from "react-icons/ti";
 
-
-
-
-const FourDescriptions = () => {
+const Four_Descriptions = () => {
     const descriptionsData = [
         {
             id: 1,
             logo: <FaBookOpen />,
             title: "Founded By Ethiopians",
-            description: "In 2001, they chose 20 of the most talented children out of 120 to teach them how to play tennis. Their daily routine started at 6 a.m before school. Ten year later, this led to the founding of the NGO 'Tariku and Desta Kids Education through Tennis Development Ethiopia(TDKET)', which now supports 70 children. They managed to win patrons from Germany. At the same time, however, it is and remains a project by Ethiopians for Ethiopians.",
+            description: "In 2001, they chose 20 of the most talented children out of 120 to teach them how to play tennis. Their daily routine started at 6 a.m before school. Ten years later, this led to the founding of the NGO 'Tariku and Desta Kids Education through Tennis Development Ethiopia (TDKET)', which now supports 70 children.",
         },
         {
             id: 2,
             logo: <FaProjectDiagram />,
             title: "An Educational Project",
-            description: "'Education' is the key to a better life for children from the poorest backgrounds in Addis Ababa. The 'medium' of educational support is tennis. Special emphasis is placed on academic development, tutoring and additional lessons, and successful participation in tournaments. The children are fully looked after by the project, and the parents ar given responsibility for their children's performance development through educational measures at parents' evenings.",
+            description: "'Education' is the key to a better life for children from the poorest backgrounds in Addis Ababa. The 'medium' of educational support is tennis.",
         },
         {
             id: 3,
             logo: <SiTalenthouse />,
             title: "Promotes Talent",
-            description: "The aim is to support young people who stand out through their commitment, enthusiasm for learning and driven to achieve maximum results in both sports and school. Scholarships for secondary schools are an important part of the project.",
+            description: "The aim is to support young people who stand out through their commitment and enthusiasm for learning.",
         },
         {
             id: 4,
             logo: <TiContacts />,
-            title: "Generation contract",
-            description: "The idea of the so-called 'generation contract' is conveyed by older children from the project taking on a mentoring role for younger children beyond family boundaries. Yonas Gebre is a great role model. He grew up in ",
+            title: "Generation Contract",
+            description: "The idea of the 'generation contract' is conveyed by older children taking on a mentoring role for younger children.",
         }
-    ]
-  return (
-    <div>
-           
-    </div>
-  )
-}
+    ];
 
-export default FourDescriptions
+    return (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-8">
+            {descriptionsData.map(({ id, logo, title, description }) => (
+                <div key={id} className="flex items-start p-4 border rounded-lg shadow-md">
+                    <div className="text-3xl mr-8">{logo}</div>
+                    <div>
+                        <h3 className="font-bold text-xl">{title}</h3>
+                        <p className="text-gray-600">{description}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+    );
+};
+
+export default Four_Descriptions;

@@ -1,13 +1,14 @@
 import { FaHeartbeat } from "react-icons/fa";
 
-import aimg5 from "../assets/images/aimg5.png"
-import aimg7 from "../assets/images/aimg7.png"
+import kids_image_about2 from "../assets/images/kids_image_about2.jpg"
+import tdket_kids_aboutpage1 from "../assets/images/tdket_kids_aboutpage1.jpg"
 
 
 
 const AboutOrganization = () => {
   return (
-    <div className="flex space-x-8 my-32 mx-4 overflow-x-hidden">
+    <div className="flex space-x-8
+     my-16 mx-4 overflow-x-hidden">
         <div className="w-1/2">
             <h1 className="font-bold text-5xl leading-snug font-poppins mb-6">About Our Organization</h1>
             <span className="flex space-x-6 p-4"><div className="bg-orange-500 size-12 rounded-full justify-center items-center flex"><FaHeartbeat className="text-4xl text-white p-1"/></div><h2 className="font-bold text-3xl leading-snug font-poppins">Our Mission</h2></span>
@@ -17,8 +18,8 @@ const AboutOrganization = () => {
         </div> 
 
         <div className="w-1/2 flex space-x-5">
-            <img src={aimg5} className="w-1/2 rounded-2xl blur-sm" />
-            <img src={aimg7} className="w-[46%] rounded-2xl blur-sm" />
+            <img src={kids_image_about2} className="w-1/2 rounded-2xl " />
+            <img src={tdket_kids_aboutpage1} className="w-[46%] rounded-2xl " />
         </div>    
     </div>
   )

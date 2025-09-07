@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(20, 20, 20, 0.98);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+.donate-btn {
+  display: flex;
+  gap: 16px;
+  margin-right: 10px;
+}
+.donate-btn button {
+  background-color: #fd7e14;
+  border: none;
+  color: white;
+  height: 25px;
+  border-radius: 10px;
+  width: 90px;
+  font-weight: bold;
+}
+.logo {
+  cursor: pointer;
+}
+.logo-image {
+  height: 60px;
+  width: 120px;
+}
+.nav a.active {
+  color: rgb(157, 156, 156);
+}

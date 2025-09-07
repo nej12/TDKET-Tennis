@@ -1,0 +1,75 @@
+/* home page*/
+
+.home-page {
+  background: linear-gradient(to right, black, rgb(110, 110, 110));
+}
+.home-first-section {
+  height: 92vh;
+  background-image: linear-gradient(to right,rgb(2, 6, 8), rgba(1, 1, 19, 0.3)),
+    url("public/homeBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home-first-section h1 {
+  color: white;
+  font-size: 66px;
+  margin-left: 30px;
+  padding-top: 60px;
+
+}
+.home-first-section p {
+  color: rgb(173, 171, 171);
+  width: 400px;
+  margin-left: 30px;
+}
+h4 span {
+  color: #fd7e14;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 6px;
+}
+h4 {
+  color: white;
+  font-weight: 100;
+  margin-left: 30px;
+}
+.total-children {
+  display: flex;
+}
+
+/* home section 2*/
+.home-second-section {
+  padding-top: 50px;
+  display: flex;
+  gap: 20px;
+  background-color: rgb(184, 184, 184);
+  height: 82vh;
+}
+.about-video {
+  width: 700px;
+  border: 2px solid;
+  height: 400px;
+  margin: 30px;
+  border-radius: 20px;
+}
+.description {
+  width: 700px;
+  margin-top: 50px;
+}
+.about-video img {
+  width: 500px;
+  border-radius: 10px;
+  margin-left: 50px;
+  border: 1px solid;
+}
+.description button {
+  width: 500px;
+  height: 35px;
+  margin-top: 70px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
